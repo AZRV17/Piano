@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexa\\OneDrive\\Рабочий стол\\Практическая\\Piano\\Piano\\Piano.csproj": {}
+    "C:\\Users\\alexa\\OneDrive\\Рабочий стол\\Piano\\Piano\\Piano.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexa\\OneDrive\\Рабочий стол\\Практическая\\Piano\\Piano\\Piano.csproj": {
+    "C:\\Users\\alexa\\OneDrive\\Рабочий стол\\Piano\\Piano\\Piano.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Рабочий стол\\Практическая\\Piano\\Piano\\Piano.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\OneDrive\\Рабочий стол\\Piano\\Piano\\Piano.csproj",
         "projectName": "Piano",
-        "projectPath": "C:\\Users\\alexa\\OneDrive\\Рабочий стол\\Практическая\\Piano\\Piano\\Piano.csproj",
+        "projectPath": "C:\\Users\\alexa\\OneDrive\\Рабочий стол\\Piano\\Piano\\Piano.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\OneDrive\\Рабочий стол\\Практическая\\Piano\\Piano\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\OneDrive\\Рабочий стол\\Piano\\Piano\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

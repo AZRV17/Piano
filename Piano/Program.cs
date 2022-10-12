@@ -68,6 +68,21 @@
                     case ConsoleKey.U:
                         Console.Beep(OctavaArr[11], 200);
                         break;
+                    case ConsoleKey.J:
+                        Console.Beep(OctavaArr[11], 200);
+                        break;
+                    case ConsoleKey.K:
+                        Console.Beep(OctavaArr[0], 200);
+                        break;
+                    case ConsoleKey.L:
+                        Console.Beep(OctavaArr[2], 200);
+                        break;
+                    case ConsoleKey.O:
+                        Console.Beep(OctavaArr[1], 200);
+                        break;
+                    case ConsoleKey.P:
+                        Console.Beep(OctavaArr[3], 200);
+                        break;
                 }
                 if (note.Key == ConsoleKey.Escape) break;
             }
