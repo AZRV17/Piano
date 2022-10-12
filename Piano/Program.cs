@@ -84,30 +84,37 @@
                         Console.Beep(OctavaArr[3], 200);
                         break;
                 }
-                if (note.Key == ConsoleKey.Escape) break;
+                if (note.Key == ConsoleKey.Escape)
+                {
+                    break;
+                }
             }
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Выберите октаву(F3-F5)");
-            ConsoleKeyInfo Octava = Console.ReadKey(true);
-            if (Octava.Key == ConsoleKey.F3)
+            while (true)
             {
-                Console.WriteLine("Третья октава");
-                ThirdOctava();
+                Console.WriteLine("Выберите октаву(F3-F5)");
+                ConsoleKeyInfo Octava = Console.ReadKey(true);
+                if (Octava.Key == ConsoleKey.F3)
+                {
+                    Console.WriteLine("Третья октава");
+                    ThirdOctava();
+                }
+                else if (Octava.Key == ConsoleKey.F4)
+                {
+                    Console.WriteLine("Четвертая октава");
+                    FourthOctava();
+                }
+                else if (Octava.Key == ConsoleKey.F5)
+                {
+                    Console.WriteLine("Пятая октава");
+                    FifthOctava();
+                }
+                else Console.WriteLine("Ошибка");
             }
-            else if (Octava.Key == ConsoleKey.F4)
-            {
-                Console.WriteLine("Четвертая октава");
-                FourthOctava();
-            }
-            else if (Octava.Key == ConsoleKey.F5)
-            {
-                Console.WriteLine("Вторая октава");
-                FifthOctava();
-            }
-            else Console.WriteLine("Ошибка");
+            
 
         }
     }
